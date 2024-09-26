@@ -12,7 +12,7 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so*
+*.so
 *.dylib
 *.dll
 
@@ -36,41 +36,12 @@ out/*
 buildLog
 
 # Testing files
-*test.cc
-*test.hh
-*test.tt
+test*
 comp
-ar-lib
-autom4te.cache/*
-compile
-config.guess
-config.h.in
-config.sub
-configure
-depcomp
-install-sh
-Makefile.in
-Makefile
-missing
-config.h
-config.log
-config.status
-stamp-h1
-config.h.in~
-autoscan.log
-bin/CMF
-bin/JROFI
-configure~
-dou-geometry-cpp-library-*.tar.gz
-*.Po
-*.Tpo
 bin/*
-*/.deps/*
-.dirstamp
-*.sage
-src/test/test-suite.log
-test-driver
+Makefile
 *.Plo
-libtool
-ltmain.sh
-*.m4
+*.Po
+*/.deps/*
+*/.libs/*
+*.so.*
